@@ -115,7 +115,13 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url(../images/img_12.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img_12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
