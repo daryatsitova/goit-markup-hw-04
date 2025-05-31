@@ -440,3 +440,7 @@ button {
     gap: 16px;
     margin-top: 16px;
 }
+
+.wrap-footer-icons .social-icon-link:hover {
+    background-color: #31D0AA;
+}
