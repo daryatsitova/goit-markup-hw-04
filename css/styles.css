@@ -273,7 +273,10 @@ button {
 }
 
 .team-info {
-    padding: 32px 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-name {
@@ -291,8 +294,36 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
+        margin-bottom: 8px;
 }
 
+.wrap-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.social-icon-link:hover {
+    background-color: #404BBF;
+}
+
+.social-icons-team-list {
+    display: block;
+    fill: #F4F4FD;
+ 
+}
 
 /* portfolio section  */
 
